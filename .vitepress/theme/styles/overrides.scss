@@ -1,19 +1,16 @@
 /***** vitepress 样式覆盖 ******/
 
-/* 大屏大一点 */
 @media (min-width: 1440px) {
   .VPDoc.has-aside .content-container.content-container {
     max-width: 100%;
   }
 }
 
-/* nav 换行问题（6 个还是有点小多，后面看看怎么优化） */
 @media (max-width: 1080px) {
   :root {
     --vp-sidebar-width: 260px;
   }
   .VPNav {
-    // 借鉴 https://cn.vuejs.org 的处理
     .DocSearch-Button-Placeholder {
       display: none;
     }
@@ -50,14 +47,12 @@
   }
 }
 
-/* 版权信息 */
 .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* 自定义块样式 */
 .custom-block .custom-block-title {
   font-size: 16px;
 }
@@ -65,7 +60,6 @@
   color: var(--vp-c-brand);
 }
 
-/* 首页样式修改 */
 .VPHero {
   .image-bg {
     opacity: 0.8;

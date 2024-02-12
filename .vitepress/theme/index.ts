@@ -4,7 +4,6 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './styles/index.scss'
 import { useData } from 'vitepress'
-import MAsideSponsors from './components/MAsideSponsors.vue'
 import MNavLinks from './components/MNavLinks.vue'
 import HeroVideo from './components/HeroVideo.vue'
 
@@ -42,8 +41,6 @@ export default {
     }
 
     return h(DefaultTheme.Layout, props, {
-      // 'aside-ads-after': () => h(MAsideSponsors),
-      // 'home-hero-after': () => h(MAsideSponsors),
       'home-hero-image': () => h(HeroVideo)
     })
   },
