@@ -1,13 +1,15 @@
 # Rebebuca-Website
 
-## Rebebuca 是什么 ？
+https://rebebuca.com
+
+### Rebebuca 是什么
 
 - Rebebuca 是一个使用 Rust 开发的 桌面端 FFMPEG 管理器
 - **可以在30秒内完成创建、运行、管理你的 ffmpeg 命令**
 ![](./public/quick.gif)
 - 帮助我们更好的管理繁多复杂的 ffmpeg 参数和 ffmpeg 命令运行状态
 
-### 功能特性
+## 功能特性
 
 - ffmpeg 命令全周期管理
   - 支持 ffmpeg 命令运行、停止、重启等操作
