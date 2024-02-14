@@ -2,9 +2,10 @@
 
 ## 下载安装
 
-- Windows 下载地址：[rebebuca.msi](https://gitee.com/cuteyk/rebebuca-update/releases/download/1.0.0/Rebebuca.msi)
-- Mac 安装下载地址：[rebebuca.dmg](https://gitee.com/cuteyk/rebebuca-update/releases/download/1.0.0/Rebebuca.dmg)
-- Mac(arm64) 安装下载地址：[rebebuca.dmg](https://gitee.com/cuteyk/rebebuca-update/releases/download/1.0.0/Rebebuca-aarch64.dmg)
+- Windows 下载地址：[rebebuca.msi](https://download.m7s.live/rb/Rebebuca_0.1.0_x64_en-US.msi)
+- Mac 安装下载地址：[rebebuca.dmg](https://download.m7s.live/rb/Rebebuca_0.1.0_x64.dmg)
+- Mac(arm64) 安装下载地址：[rebebuca-arm64.dmg](https://download.m7s.live/rb/Rebebuca_0.1.0_aarch64.dmg)
+
 
 ## 启动软件
 
