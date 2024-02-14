@@ -24,7 +24,7 @@ export default defineConfig({
       provider: "local",
     },
     footer: {
-      message: "@2024 Monibuca All Rights Reserved 南京莫妮不卡科技有限公司",
+      message: "@2024 Rebebuca All Rights Reserved 南京莫妮不卡科技有限公司",
       copyright: `
       <a href="https://beian.miit.gov.cn/" style="color: #939393;text-decoration: none;" target="_blank">
         苏ICP备2023025807号-3
