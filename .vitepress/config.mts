@@ -27,7 +27,7 @@ export default defineConfig({
       message: "@2024 Monibuca All Rights Reserved 南京莫妮不卡科技有限公司",
       copyright: `
       <a href="https://beian.miit.gov.cn/" style="color: #939393;text-decoration: none;" target="_blank">
-        苏ICP备2023025807号-1
+        苏ICP备2023025807号-3
       </a>
       <img src="https://monibuca.com/images/beian.png" style="margin: 0 5px;"></img>
       <a
@@ -35,7 +35,7 @@ export default defineConfig({
         target="_blank"
         style="color: #939393;text-decoration: none;"
       >
-        苏公网安备 32011302321580号
+        苏公网安备32010402001567号
       </a>
     `,
     },
