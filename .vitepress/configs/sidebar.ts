@@ -5,8 +5,9 @@ export const sidebar = {
       items: [
         { text: '介绍', link: '/guide/' },
         { text: '快速开始', link: '/guide/startup' },
+        { text: '设置', link: '/guide/config' },
+        { text: 'ffmpeg命令参数大全', link: '/guide/ffmpeg命令参数大全' },
         { text: '案例-常见ffmpeg命令', link: '/guide/案例-常见ffmpeg命令' },
-        { text: '设置', link: '/guide/config' }
       ]
     }
   ],
