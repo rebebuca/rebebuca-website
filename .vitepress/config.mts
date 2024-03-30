@@ -6,6 +6,21 @@ export default defineConfig({
   title: "Rebebuca",
   description: "Rebebuca ",
   lastUpdated: false,
+  head: [
+    [
+      'script',
+      {},
+      `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?7fe97683b049f6bbaf18061c43af6b83";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+      `
+    ]
+  ],
   themeConfig: {
     i18nRouting: false,
     logo: "/logo.png",
