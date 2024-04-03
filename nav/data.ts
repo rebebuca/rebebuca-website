@@ -5,7 +5,7 @@ export const NAV_DATA: NavData[] = [
     title: "Monibuca",
     items: [
       {
-        icon: "/monibuca.png",
+        icon: "https://monibuca.com/img/mb.png",
         title: "Monibuca",
         desc: "开源Go语言流媒体服务器开发框架",
         link: "https://monibuca.com",
@@ -26,7 +26,7 @@ export const NAV_DATA: NavData[] = [
     title: "Jessibuca",
     items: [
       {
-        icon: "https://jessibuca.com/logo.png",
+        icon: "https://monibuca.com/img/jb.png",
         title: "Jessibuca",
         desc: "纯H5低延迟直播流播放器",
         link: "https://jessibuca.com",
@@ -47,7 +47,7 @@ export const NAV_DATA: NavData[] = [
     title: "Rebebuca",
     items: [
       {
-        icon: "/logo.png",
+        icon: "https://monibuca.com/img/rb.png",
         title: "Rebebuca",
         desc: "30秒完成创建、运行、管理你的 ffmpeg 命令",
         link: "https://rebebuca.com",
