@@ -15,11 +15,6 @@ export const NAV_DATA: NavData[] = [
         desc: "为 m7s pro版（包含付费插件） 提供可视化 UI 界面",
         link: "https://github.com/Monibuca/pro",
       },
-      {
-        title: "Monibuca Console",
-        desc: "提供了对m7s实例的可视化管理后台的能力，支持多实例管理",
-        link: "https://console.monibuca.com",
-      },
     ],
   },
   {

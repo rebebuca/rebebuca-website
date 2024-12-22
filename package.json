@@ -7,10 +7,10 @@
   "devDependencies": {
     "@mdit-vue/shared": "^0.12.0",
     "sass": "^1.58.3",
-    "vitepress": "1.0.0-rc.42",
     "vue": "^3.2.47"
   },
   "dependencies": {
+    "vitepress": "^1.4.1",
     "vue3-video-play": "^1.3.2"
   }
 }
