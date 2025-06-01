@@ -1,0 +1,54 @@
+name: Build and Deploy via SFTP
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:  
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Install pnpm
+      uses: pnpm/action-setup@v4
+      with:
+        version: latest
+        
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'pnpm'
+        
+    - name: Install dependencies
+      run: pnpm install
+      
+    - name: Build project
+      run: pnpm run build
+      
+    - name: Verify build output
+      run: |
+        echo "Checking build output..."
+        ls -la .vitepress/
+        if [ -d ".vitepress/dist" ]; then
+          echo "Build directory exists"
+          ls -la .vitepress/dist/
+        else
+          echo "Build directory does not exist!"
+          exit 1
+        fi
+      
+    - name: Deploy to server via SFTP
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+      with:
+        username: ${{ secrets.SFTP_USERNAME }}
+        server: ${{ secrets.SFTP_HOST }}
+        port: ${{ secrets.SFTP_PORT }}
+        local_path: '.vitepress/dist/*'
+        remote_path: ${{ secrets.SFTP_SERVER_DIR }}
+        sftp_only: true
+        ssh_private_key:  ${{ secrets.SFTP_KEY }}
